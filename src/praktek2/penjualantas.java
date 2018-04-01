@@ -15,5 +15,8 @@ public class penjualantas {
             int total;
             total=harga_tas*jumlah_barang;
             return total;
+ }        
+             void cetaktotal(){
+        System.out.println("Totalnya    = "+hitungPembelian());
     }
 }
