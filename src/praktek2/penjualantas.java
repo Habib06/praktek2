@@ -6,7 +6,14 @@ public class penjualantas {
     public penjualantas() {
       harga_tas=200000;
      jumlah_barang=5;
-    } 
+    }
+
+    public penjualantas(int harga_tas, int jumlah_barang) {
+        this.harga_tas = harga_tas;
+        this.jumlah_barang = jumlah_barang;
+    }
+    
+    
     
  void cetakInfo(){
     System.out.println("================================");

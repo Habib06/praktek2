@@ -10,7 +10,16 @@ public class PenjualantasAksi {
          r1.cetakInfo();
           System.out.println("total   =   "+r1.hitungPembelian());
           r1.cetaktotal();
+          
+        penjualantas r2 = new penjualantas();
+        r2.cetakInfo();
+        r2.cetakInfo();
+        
+        penjualantas r3 = new penjualantas(500000,2);
+        r3.cetakInfo();
+        r3.cetakInfo();
     }
+    s
 }
 
 
