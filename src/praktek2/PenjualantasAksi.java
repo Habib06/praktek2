@@ -8,6 +8,7 @@ public class PenjualantasAksi {
         r1.jumlah_barang = 5;        
         
          r1.cetakInfo();
+          System.out.println("total   =   "+r1.hitungPembelian());
     }
 }
 

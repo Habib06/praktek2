@@ -11,4 +11,9 @@ public class penjualantas {
     System.out.println("================================");
 }
 
+ Integer hitungPembelian(){
+            int total;
+            total=harga_tas*jumlah_barang;
+            return total;
+    }
 }
