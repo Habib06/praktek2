@@ -6,7 +6,8 @@ public class PenjualantasAksi {
 
         r1.harga_tas = 1000000;
         r1.jumlah_barang = 5;        
-            
+        
+         r1.cetakInfo();
     }
 }
 
